@@ -1,0 +1,55 @@
+{
+  "python": "3.12.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "numba": "0.68.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0"
+  },
+  "attempts": [
+    {
+      "seed": 5,
+      "best_energy": 0.0,
+      "proposals": 16947,
+      "elapsed_seconds": 3.125
+    }
+  ],
+  "successful_search": {
+    "seed": 5,
+    "restart": 0,
+    "proposals": 16947,
+    "elapsed_seconds": 3.125,
+    "integer_scale": 10000000,
+    "initialization": "fresh irregular ring",
+    "parameters": {
+      "m": 48,
+      "k": 8,
+      "steps_per_restart": 20000,
+      "restarts": 6,
+      "chunk_size": 1000,
+      "max_seconds": 240.0,
+      "cycle_steps": 20000,
+      "temperature_start": 12.0,
+      "temperature_ratio": 0.015,
+      "scale_start": 0.2,
+      "scale_ratio": 0.01,
+      "large_move_probability": 0.05,
+      "large_move_scale": 0.3,
+      "radius_bounds": [
+        0.25,
+        3.0
+      ]
+    }
+  },
+  "search_time_seconds": 3.125,
+  "new_points_sha256": "7745d0f3e70dfc87d6bf0b35ff88af1dc9dc4d667105b9de20e6ae209f57d207",
+  "paper_points_sha256": "2b314645c5a8fd3f44b4334f539db860d658a5476ab2dff662e800ceabb18ed9",
+  "source_sha256": {
+    "annealing.py": "5b8c3e7a8b12e8f83b392d6699a9aa6bff442a90fa79ae2e46d4c22f74273ed8",
+    "exact_verify.py": "93f512481b321d27b16e9ea2253c2b4d4adcf4f9af87ee4a577b335ce3d8a36c",
+    "slope_verify.py": "9d5add6225cb796f5974c890783c2b450b19ba75ddc10085a55fd2010ca3ed19",
+    "verification.py": "e940ca705969afa2b6413308d6836dc9db038dfd41de806abc5560ef855387a8"
+  }
+}

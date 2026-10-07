@@ -1,0 +1,44 @@
+{
+  "certified": true,
+  "verifiers_agree": true,
+  "geometry": {
+    "distinct_points": 96,
+    "centrally_symmetric": true,
+    "triples_checked": 142880,
+    "collinear_triples": 0
+  },
+  "rays": {
+    "status": "counterexample_certified",
+    "N": 96,
+    "k": 8,
+    "points_sha256": "2b314645c5a8fd3f44b4334f539db860d658a5476ab2dff662e800ceabb18ed9",
+    "event_ray_count": 9216,
+    "chamber_count": 9216,
+    "defect_histogram": {
+      "1": 8814,
+      "2": 402
+    },
+    "witness": null,
+    "critical_defect_range": [
+      1,
+      2
+    ],
+    "weak_solution_event_count": 0,
+    "first_weak_solution_event": null
+  },
+  "slopes": {
+    "status": "counterexample_certified",
+    "N": 96,
+    "k": 8,
+    "points_sha256": "2b314645c5a8fd3f44b4334f539db860d658a5476ab2dff662e800ceabb18ed9",
+    "chart_cell_count": 9218,
+    "chamber_count": 9216,
+    "defect_histogram": {
+      "1": 8814,
+      "2": 402
+    },
+    "weak_solution_event_count": 0,
+    "witness": null
+  },
+  "elapsed_seconds": 3.827999999979511
+}

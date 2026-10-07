@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.nbc
+*.nbi
+annealing.executed.ipynb
